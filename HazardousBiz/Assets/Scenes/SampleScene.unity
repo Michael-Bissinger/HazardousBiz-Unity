@@ -424,6 +424,7 @@ GameObject:
   - component: {fileID: 156591718}
   - component: {fileID: 157361732}
   - component: {fileID: 158360708}
+  - component: {fileID: 156432967}
   m_Layer: 0
   m_Name: Conveyor
   m_TagString: Untagged
@@ -431,6 +432,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &156432967
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156432966}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.4706008, y: 0.7638798, z: 1.1262991}
+  m_Center: {x: 3.6723316, y: 0.3818705, z: 2.924587}
 --- !u!1 &156432970
 GameObject:
   m_ObjectHideFlags: 0
