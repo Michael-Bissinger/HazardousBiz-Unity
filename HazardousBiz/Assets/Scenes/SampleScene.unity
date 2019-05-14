@@ -2141,6 +2141,7 @@ GameObject:
   m_Component:
   - component: {fileID: 632799266}
   - component: {fileID: 632799267}
+  - component: {fileID: 632799268}
   m_Layer: 0
   m_Name: SirenSound
   m_TagString: Untagged
@@ -2258,6 +2259,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!65 &632799268
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 632799265}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.6074333, y: 1.6405259, z: 3.9022913}
+  m_Center: {x: -0.46716547, y: 0.32026297, z: -0.056265354}
 --- !u!1001 &657809242
 PrefabInstance:
   m_ObjectHideFlags: 0
