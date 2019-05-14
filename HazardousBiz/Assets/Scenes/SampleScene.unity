@@ -2135,7 +2135,7 @@ Light:
     m_Bits: 4294967295
   m_Lightmapping: 2
   m_LightShadowCasterMode: 0
-  m_AreaSize: {x: 20.10585, y: 16.905182}
+  m_AreaSize: {x: 15.852799, y: 14.043163}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
