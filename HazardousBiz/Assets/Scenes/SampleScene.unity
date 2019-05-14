@@ -2142,6 +2142,7 @@ GameObject:
   - component: {fileID: 632799266}
   - component: {fileID: 632799267}
   - component: {fileID: 632799268}
+  - component: {fileID: 632799269}
   m_Layer: 0
   m_Name: SirenSound
   m_TagString: Untagged
@@ -2174,7 +2175,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: c4c555404ea9dbd44a5ea4d77522899f, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 0.051
   m_Pitch: 1
   Loop: 1
@@ -2272,6 +2273,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.6074333, y: 1.6405259, z: 3.9022913}
   m_Center: {x: -0.46716547, y: 0.32026297, z: -0.056265354}
+--- !u!114 &632799269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 632799265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c9855f0b52c3a4f8f087d40cf4d646, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  source: {fileID: 632799267}
+  clip: {fileID: 8300000, guid: c4c555404ea9dbd44a5ea4d77522899f, type: 3}
 --- !u!1001 &657809242
 PrefabInstance:
   m_ObjectHideFlags: 0
