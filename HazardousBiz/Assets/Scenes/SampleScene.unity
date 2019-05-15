@@ -176,7 +176,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1395910934418904, guid: 6f05c4c6a3cc011459dc4008c17de3a2, type: 3}
       propertyPath: m_Name
-      value: Strobe
+      value: StrobeLight
       objectReference: {fileID: 0}
     - target: {fileID: 4007095324848462, guid: 6f05c4c6a3cc011459dc4008c17de3a2, type: 3}
       propertyPath: m_LocalPosition.x
