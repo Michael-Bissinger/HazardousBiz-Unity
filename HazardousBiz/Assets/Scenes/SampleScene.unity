@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.43855682, g: 0.48666376, b: 0.56693757, a: 1}
+  m_IndirectSpecularColor: {r: 0.17419581, g: 0.21783963, b: 0.30004498, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -22003,6 +22003,7 @@ GameObject:
   - component: {fileID: 1896618826}
   - component: {fileID: 1896618825}
   - component: {fileID: 1896618824}
+  - component: {fileID: 1896618827}
   m_Layer: 0
   m_Name: HazCam
   m_TagString: MainCamera
@@ -22074,6 +22075,19 @@ Transform:
   m_Father: {fileID: 1726111532}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 11.139001, y: 0, z: -2.042}
+--- !u!114 &1896618827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1896618823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff26db721962cdf4a8edcdfa9a767d2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  profile: {fileID: 11400000, guid: e39d004fb941fc0488085a9ac9f1528f, type: 2}
 --- !u!1 &1898576875
 GameObject:
   m_ObjectHideFlags: 0
