@@ -30,28 +30,28 @@ MonoBehaviour:
     m_Settings:
       excludeSkybox: 1
   antialiasing:
-    m_Enabled: 0
+    m_Enabled: 1
     m_Settings:
       method: 0
       fxaaSettings:
-        preset: 2
+        preset: 1
       taaSettings:
         jitterSpread: 0.75
         sharpen: 0.3
         stationaryBlending: 0.95
         motionBlending: 0.85
   ambientOcclusion:
-    m_Enabled: 0
+    m_Enabled: 1
     m_Settings:
-      intensity: 1
-      radius: 0.3
+      intensity: 0.58
+      radius: 0.7
       sampleCount: 10
       downsampling: 1
       forceForwardCompatibility: 0
       ambientOnly: 0
       highPrecision: 0
   screenSpaceReflection:
-    m_Enabled: 0
+    m_Enabled: 1
     m_Settings:
       reflection:
         blendType: 0
@@ -70,11 +70,11 @@ MonoBehaviour:
       screenEdgeMask:
         intensity: 0.03
   depthOfField:
-    m_Enabled: 0
+    m_Enabled: 1
     m_Settings:
-      focusDistance: 10
-      aperture: 5.6
-      focalLength: 50
+      focusDistance: 3.5
+      aperture: 16.7
+      focalLength: 149
       useCameraFov: 0
       kernelSize: 1
   motionBlur:
@@ -114,19 +114,19 @@ MonoBehaviour:
     m_Settings:
       tonemapping:
         tonemapper: 2
-        neutralBlackIn: 0.04
-        neutralWhiteIn: 7.34
-        neutralBlackOut: 0.0118
+        neutralBlackIn: 0.057
+        neutralWhiteIn: 12.31
+        neutralBlackOut: -0.001
         neutralWhiteOut: 8.13
-        neutralWhiteLevel: 19.2
-        neutralWhiteClip: 8.46
+        neutralWhiteLevel: 15
+        neutralWhiteClip: 10
       basic:
         postExposure: 0
         temperature: 1
         tint: 0
         hueShift: 0
-        saturation: 1
-        contrast: 1
+        saturation: 0.86
+        contrast: 0.92
       channelMixer:
         red: {x: 1, y: 0, z: 0}
         green: {x: 0, y: 1, z: 0}
@@ -150,6 +150,33 @@ MonoBehaviour:
             - serializedVersion: 3
               time: 0
               value: 0
+              inSlope: 1
+              outSlope: 1
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 0.16020672
+              value: 0.125
+              inSlope: 1
+              outSlope: 1
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 0.498708
+              value: 0.498708
+              inSlope: 1
+              outSlope: 1
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 0.7932817
+              value: 0.86956525
               inSlope: 1
               outSlope: 1
               tangentMode: 0
@@ -318,13 +345,13 @@ MonoBehaviour:
       size: 1
       luminanceContribution: 0.8
   vignette:
-    m_Enabled: 0
+    m_Enabled: 1
     m_Settings:
       mode: 0
       color: {r: 0, g: 0, b: 0, a: 1}
       center: {x: 0.5, y: 0.5}
-      intensity: 0.45
-      smoothness: 0.2
+      intensity: 0.341
+      smoothness: 0.123
       roundness: 1
       mask: {fileID: 0}
       opacity: 1
