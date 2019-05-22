@@ -84,7 +84,7 @@ MonoBehaviour:
       sampleCount: 10
       frameBlending: 0
   eyeAdaptation:
-    m_Enabled: 0
+    m_Enabled: 1
     m_Settings:
       lowPercent: 45
       highPercent: 95
@@ -103,8 +103,8 @@ MonoBehaviour:
       bloom:
         intensity: 0.2
         threshold: 0.6
-        softKnee: 0.455
-        radius: 2.64
+        softKnee: 0.284
+        radius: 2.11
         antiFlicker: 0
       lensDirt:
         texture: {fileID: 0}
